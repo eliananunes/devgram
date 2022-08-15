@@ -130,3 +130,29 @@ body {
 .app-download:nth-child(2) {
     background-image: url('./img/googleplay-button.png');
 }
+
+/* mobile */
+
+@media (max-width: 1024px) {
+    .dev-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .dev-wrapper {
+        width: 90%;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .dev-continue {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px solid transparent;
+    }
+}
